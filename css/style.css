@@ -1,0 +1,42 @@
+header {  }
+body { background-color: clear; }
+
+#bigbox { background-color: blue; text-align: center;
+    border: 3px solid blue; padding: 70px 0; width: 400px; height: 300px; border-radius: 50%; }
+
+#temp { color:darkblue; }
+
+.cold { color: blue; }
+.hot {color: crimson; font-weight: 900; }
+
+.ny { background-image:url(../img/ny.jpg); background-size: 100%; }
+.cali { background-image:url(../img/cali.jpg); background-size: 100%; }
+.ak { background-image:url(../img/ak.jpg); background-size: 100%; }
+.chicago { background-image:url(../img/chicago.jpg); background-size: 100%; }
+.sanjuan { background-image:url(../img/sanjuan.jpg); background-size: 100%; }
+.houston { background-image:url(../img/houston.jpg); background-size: 100%; }
+.neworleans { background-image:url(../img/neworl.jpg); background-size: 100%;  }
+.default { background-image:url(../img/default.jpg); background-size: 100%; }
+
+.hotback { background-image:url(../img/hot.gif); background-size: 100%; }
+.coldback {background-image:url(../img/cold.gif); background-size: 100%; }
+.bsky { background-image:url(../img/bsky.jpg); background-size: 100%; }
+
+@keyframes pulse {
+  0% {
+    color: #blue;
+  }
+  100% {
+    color: black;
+  }
+
+
+
+/*99501 (Anchorage)
+99723 (Barrow, AK)
+60605 (Chicago)
+70124 (New Orleans)
+77030 (Houston, TX)
+00902 (San Juan, Puerto Rico)
+46923 (Delphi, IN)
+94123 (San Francisco, CA)*/

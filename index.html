@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>The Weather App</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="default">
+<header></header>
+<div id="bigbox" class="bsky">
+  <div id="temp">
+
+    <h1>Weather Report:</h1><h2>
+    <div id="city"></div>
+    <div id="curr"></div>
+    <div id="low"></div><div id="high"></div>
+    <div id="weather"></div></h2>
+
+    <p>Please enter zip code</p>
+    <form id="zipField">
+    <input class="zipcode" type="text" pattern="[0-9]{5}" placeholder= "Zip Code"/>
+    <input type="submit" id="submit"/><!--     https://api.jquery.com/submit/ -->
+    </form>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/app2.js"></script>
+
+</body>
+</html>
+
+
+<!-- City name, Current temperature, Weather description, Min temp, Max temp -->
+<!-- Have the temperature turn blue if under 40, and red if above 90. -->
